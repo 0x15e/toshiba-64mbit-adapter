@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:toshiba-64mbit-adapter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -141,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2600 2900 2600
 $Comp
-L 74xx:74HCT244 U4
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U4
 U 1 1 5C861A2E
 P 6350 3350
 F 0 "U4" H 6350 4331 50  0000 C CNN
@@ -152,7 +151,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 6350 33
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT244 U5
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U5
 U 1 1 5C8634EA
 P 7950 3350
 F 0 "U5" H 7950 4331 50  0000 C CNN
@@ -163,7 +162,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 7950 33
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT244 U7
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U7
 U 1 1 5C863DE8
 P 9400 3350
 F 0 "U7" H 9400 4331 50  0000 C CNN
@@ -174,7 +173,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 9400 33
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT244 U3
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U3
 U 1 1 5C865388
 P 6300 5450
 F 0 "U3" H 6300 6431 50  0000 C CNN
@@ -185,7 +184,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 6300 54
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HCT244 U6
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U6
 U 1 1 5C865EC6
 P 8000 5400
 F 0 "U6" H 8000 6381 50  0000 C CNN
