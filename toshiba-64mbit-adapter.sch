@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Flash to Toshiba Mask ROM Adapter"
+Date "2020-10-16"
+Rev "1.2"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "License: CC0 1.0 Universal"
+Comment2 "https://github.com/tdaede/toshiba-64mbit-adapter"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -20,7 +20,7 @@ P 3000 2550
 F 0 "U1" H 3250 3825 50  0000 C CNN
 F 1 "TC5364205" H 3250 3734 50  0000 C CNN
 F 2 "Package_DIP:DIP-42_W15.24mm" H 3000 2550 50  0001 C CNN
-F 3 "" H 3000 2550 50  0001 C CNN
+F 3 "https://smitdogg.mameworld.info/du/romref.txt" H 3000 2550 50  0001 C CNN
 	1    3000 2550
 	1    0    0    -1  
 $EndComp
@@ -355,6 +355,7 @@ F 0 "U2" H 1700 6575 50  0000 C CNN
 F 1 "S29*L" H 1700 6484 50  0000 C CNN
 F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 1450 5350 50  0001 C CNN
 F 3 "" H 1450 5350 50  0001 C CNN
+F 4 "Use with S29GL064N, S29GL032N, S29AL016J, S29AL008J, or functionally identical NOR flash " H 1450 5350 50  0001 C CNN "Notes"
 	1    1450 5350
 	1    0    0    -1  
 $EndComp
