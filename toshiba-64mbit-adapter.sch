@@ -16,129 +16,125 @@ $EndDescr
 $Comp
 L adapter:TC5364205 U1
 U 1 1 5C862239
-P 3000 2550
-F 0 "U1" H 3250 3825 50  0000 C CNN
-F 1 "TC5364205" H 3250 3734 50  0000 C CNN
-F 2 "Package_DIP:DIP-42_W15.24mm" H 3000 2550 50  0001 C CNN
-F 3 "https://smitdogg.mameworld.info/du/romref.txt" H 3000 2550 50  0001 C CNN
-	1    3000 2550
+P 1450 2500
+F 0 "U1" H 1700 3775 50  0000 C CNN
+F 1 "TC5364205" H 1700 3684 50  0000 C CNN
+F 2 "Package_DIP:DIP-42_W15.24mm" H 1450 2500 50  0001 C CNN
+F 3 "https://smitdogg.mameworld.info/du/romref.txt" H 1450 2500 50  0001 C CNN
+	1    1450 2500
 	1    0    0    -1  
 $EndComp
-Text Label 2900 1500 2    50   ~ 10
+Text Label 1350 1450 2    50   ~ 10
 A18
-Text Label 2900 1600 2    50   ~ 10
+Text Label 1350 1550 2    50   ~ 10
 A17
-Text Label 2900 1700 2    50   ~ 10
+Text Label 1350 1650 2    50   ~ 10
 A7
-Text Label 2900 1800 2    50   ~ 10
+Text Label 1350 1750 2    50   ~ 10
 A6
-Text Label 2900 1900 2    50   ~ 10
+Text Label 1350 1850 2    50   ~ 10
 A5
-Text Label 2900 2000 2    50   ~ 10
+Text Label 1350 1950 2    50   ~ 10
 A4
-Text Label 2900 2100 2    50   ~ 10
+Text Label 1350 2050 2    50   ~ 10
 A3
-Text Label 2900 2200 2    50   ~ 10
+Text Label 1350 2150 2    50   ~ 10
 A2
-Text Label 2900 2300 2    50   ~ 10
+Text Label 1350 2250 2    50   ~ 10
 A1
-Text Label 2900 2400 2    50   ~ 10
+Text Label 1350 2350 2    50   ~ 10
 A0
-Text Label 2900 2700 2    50   ~ 10
+Text Label 1350 2650 2    50   ~ 10
 E
-Text Label 2900 2800 2    50   ~ 10
+Text Label 1350 2750 2    50   ~ 10
 D0
-Text Label 2900 2900 2    50   ~ 10
+Text Label 1350 2850 2    50   ~ 10
 D8
-Text Label 2900 3000 2    50   ~ 10
+Text Label 1350 2950 2    50   ~ 10
 D1
-Text Label 2900 3100 2    50   ~ 10
+Text Label 1350 3050 2    50   ~ 10
 D9
-Text Label 2900 3200 2    50   ~ 10
+Text Label 1350 3150 2    50   ~ 10
 D2
-Text Label 2900 3300 2    50   ~ 10
+Text Label 1350 3250 2    50   ~ 10
 D10
-Text Label 2900 3400 2    50   ~ 10
+Text Label 1350 3350 2    50   ~ 10
 D3
-Text Label 2900 3500 2    50   ~ 10
+Text Label 1350 3450 2    50   ~ 10
 D11
-Text Label 3600 1500 0    50   ~ 10
+Text Label 2050 1450 0    50   ~ 10
 A19
-Text Label 3600 1600 0    50   ~ 10
+Text Label 2050 1550 0    50   ~ 10
 A8
-Text Label 3600 1700 0    50   ~ 10
+Text Label 2050 1650 0    50   ~ 10
 A9
-Text Label 3600 1800 0    50   ~ 10
+Text Label 2050 1750 0    50   ~ 10
 A10
-Text Label 3600 1900 0    50   ~ 10
+Text Label 2050 1850 0    50   ~ 10
 A11
-Text Label 3600 2000 0    50   ~ 10
+Text Label 2050 1950 0    50   ~ 10
 A12
-Text Label 3600 2100 0    50   ~ 10
+Text Label 2050 2050 0    50   ~ 10
 A13
-Text Label 3600 2200 0    50   ~ 10
+Text Label 2050 2150 0    50   ~ 10
 A14
-Text Label 3600 2300 0    50   ~ 10
+Text Label 2050 2250 0    50   ~ 10
 A15
-Text Label 3600 2400 0    50   ~ 10
-A16
-Text Label 3600 2500 0    50   ~ 10
-A20
-Text Label 3600 2700 0    50   ~ 10
-D15
-Text Label 3600 2900 0    50   ~ 10
+Text Label 2050 2650 0    50   ~ 10
+D15IO
+Text Label 2050 2850 0    50   ~ 10
 D14
-Text Label 3600 3100 0    50   ~ 10
+Text Label 2050 3050 0    50   ~ 10
 D13
-Text Label 3600 3300 0    50   ~ 10
+Text Label 2050 3250 0    50   ~ 10
 D12
-Text Label 3600 2800 0    50   ~ 10
+Text Label 2050 2750 0    50   ~ 10
 D7
-Text Label 3600 3000 0    50   ~ 10
+Text Label 2050 2950 0    50   ~ 10
 D6
-Text Label 3600 3200 0    50   ~ 10
+Text Label 2050 3150 0    50   ~ 10
 D5
-Text Label 3600 3400 0    50   ~ 10
+Text Label 2050 3350 0    50   ~ 10
 D4
 $Comp
 L power:GND #PWR0101
 U 1 1 5C8657C0
-P 2650 2600
-F 0 "#PWR0101" H 2650 2350 50  0001 C CNN
-F 1 "GND" H 2655 2427 50  0000 C CNN
-F 2 "" H 2650 2600 50  0001 C CNN
-F 3 "" H 2650 2600 50  0001 C CNN
-	1    2650 2600
+P 1100 2550
+F 0 "#PWR0101" H 1100 2300 50  0001 C CNN
+F 1 "GND" H 1105 2377 50  0000 C CNN
+F 2 "" H 1100 2550 50  0001 C CNN
+F 3 "" H 1100 2550 50  0001 C CNN
+	1    1100 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5C865EB1
-P 3900 2600
-F 0 "#PWR0102" H 3900 2350 50  0001 C CNN
-F 1 "GND" H 3905 2427 50  0000 C CNN
-F 2 "" H 3900 2600 50  0001 C CNN
-F 3 "" H 3900 2600 50  0001 C CNN
-	1    3900 2600
+P 2350 2550
+F 0 "#PWR0102" H 2350 2300 50  0001 C CNN
+F 1 "GND" H 2355 2377 50  0000 C CNN
+F 2 "" H 2350 2550 50  0001 C CNN
+F 3 "" H 2350 2550 50  0001 C CNN
+	1    2350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0103
 U 1 1 5C8662B6
-P 3900 3500
-F 0 "#PWR0103" H 3900 3350 50  0001 C CNN
-F 1 "+5V" H 3915 3673 50  0000 C CNN
-F 2 "" H 3900 3500 50  0001 C CNN
-F 3 "" H 3900 3500 50  0001 C CNN
-	1    3900 3500
+P 2350 3450
+F 0 "#PWR0103" H 2350 3300 50  0001 C CNN
+F 1 "+5V" H 2365 3623 50  0000 C CNN
+F 2 "" H 2350 3450 50  0001 C CNN
+F 3 "" H 2350 3450 50  0001 C CNN
+	1    2350 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 3500 3900 3500
+	2050 3450 2350 3450
 Wire Wire Line
-	3600 2600 3900 2600
+	2050 2550 2350 2550
 Wire Wire Line
-	2650 2600 2900 2600
+	1100 2550 1350 2550
 $Comp
 L toshiba-64mbit-adapter-rescue:74HCT244-74xx U7
 U 1 1 5C863DE8
@@ -208,7 +204,7 @@ F 3 "" H 9750 5350 50  0001 C CNN
 	1    9750 5350
 	1    0    0    -1  
 $EndComp
-Text Label 2900 2500 2    50   ~ 10
+Text Label 1350 2450 2    50   ~ 10
 A21
 $Comp
 L power:GND #PWR0110
@@ -301,8 +297,6 @@ Text Label 2050 4350 0    50   ~ 0
 ma16
 Text Label 1350 4350 2    50   ~ 0
 ma15
-Text Label 2050 4650 0    50   ~ 0
-md15
 Text Label 2050 4750 0    50   ~ 0
 md7
 Text Label 2050 4850 0    50   ~ 0
@@ -410,29 +404,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0106
 U 1 1 5C8A61CA
-P 2450 4550
-F 0 "#PWR0106" H 2450 4300 50  0001 C CNN
-F 1 "GND" H 2455 4377 50  0000 C CNN
-F 2 "" H 2450 4550 50  0001 C CNN
-F 3 "" H 2450 4550 50  0001 C CNN
-	1    2450 4550
+P 2650 4550
+F 0 "#PWR0106" H 2650 4300 50  0001 C CNN
+F 1 "GND" H 2655 4377 50  0000 C CNN
+F 2 "" H 2650 4550 50  0001 C CNN
+F 3 "" H 2650 4550 50  0001 C CNN
+	1    2650 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 4550 2450 4550
-$Comp
-L power:+3V3 #PWR0115
-U 1 1 5C8A68FE
-P 2450 4450
-F 0 "#PWR0115" H 2450 4300 50  0001 C CNN
-F 1 "+3V3" H 2465 4623 50  0000 C CNN
-F 2 "" H 2450 4450 50  0001 C CNN
-F 3 "" H 2450 4450 50  0001 C CNN
-	1    2450 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 4450 2450 4450
 $Comp
 L power:+3V3 #PWR0116
 U 1 1 5C8A860B
@@ -541,8 +520,6 @@ Wire Wire Line
 	9200 2750 9200 2450
 Connection ~ 9700 2750
 Connection ~ 9200 2450
-Wire Wire Line
-	9050 2450 9200 2450
 Text Label 9200 1550 2    50   ~ 0
 E
 Text Label 10200 1550 0    50   ~ 0
@@ -630,10 +607,6 @@ F 3 "" H 8000 1150 50  0001 C CNN
 	1    8000 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 1850 9050 1850
-Wire Wire Line
-	9050 1850 9050 2450
 $Comp
 L power:+3V3 #PWR0121
 U 1 1 5C91C6E7
@@ -751,4 +724,147 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf" H 6300
 	1    6300 1950
 	1    0    0    -1  
 $EndComp
+Text Label 2050 2350 0    50   ~ 10
+A16
+Text Label 2050 2450 0    50   ~ 10
+A20
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 5FAC3553
+P 4000 1450
+F 0 "JP?" H 4000 1655 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 4000 1564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 4000 1450 50  0001 C CNN
+F 3 "~" H 4000 1450 50  0001 C CNN
+F 4 "Jump 1-2 for 16-bit, 2-3 for 8-bit" H 4000 1450 50  0001 C CNN "Notes"
+F 5 "Can't just run A20 from the DIP because the flash chip doesn't share A20 and BYTE" H 4000 1450 50  0001 C CNN "More Notes"
+	1    4000 1450
+	1    0    0    -1  
+$EndComp
+Text Label 4000 1600 3    50   ~ 0
+mbytecfg
+Wire Wire Line
+	3450 1450 3800 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FAC6639
+P 3450 1450
+F 0 "#PWR?" H 3450 1300 50  0001 C CNN
+F 1 "+3V3" H 3465 1623 50  0000 C CNN
+F 2 "" H 3450 1450 50  0001 C CNN
+F 3 "" H 3450 1450 50  0001 C CNN
+	1    3450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1450 4500 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FAC7615
+P 4500 1450
+F 0 "#PWR?" H 4500 1200 50  0001 C CNN
+F 1 "GND" H 4505 1277 50  0000 C CNN
+F 2 "" H 4500 1450 50  0001 C CNN
+F 3 "" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+Text Label 2050 4450 0    50   ~ 0
+mbytecfg
+Wire Wire Line
+	2050 4550 2650 4550
+Text Label 2050 4650 0    50   ~ 0
+md15io
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 5FAC4D29
+P 4000 3100
+F 0 "JP?" H 4000 3305 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 4000 3214 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 4000 3100 50  0001 C CNN
+F 3 "~" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+Text Label 4000 3250 3    50   ~ 0
+md15io
+Text Label 9200 1850 2    50   ~ 0
+A-1
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 5FAC8DC7
+P 4000 2300
+F 0 "JP?" H 4000 2505 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 4000 2414 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels" H 4000 2300 50  0001 C CNN
+F 3 "~" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2450 3    50   ~ 0
+D15IO
+Text Label 3800 2300 2    50   ~ 0
+D15
+Text Label 4200 2300 0    50   ~ 0
+A-1
+Text Label 3800 3100 2    50   ~ 0
+md15
+Text Label 4200 3100 0    50   ~ 0
+ma-1
+Text Label 10200 1850 0    50   ~ 0
+ma-1
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5FAD95DE
+P 4000 3900
+F 0 "JP?" H 4000 4105 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4000 4014 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 3900 50  0001 C CNN
+F 3 "~" H 4000 3900 50  0001 C CNN
+F 4 "Bridge this when using 8-bit mode" H 4000 3900 50  0001 C CNN "Notes"
+	1    4000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3900 4500 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5FADA6FD
+P 4500 3900
+F 0 "#PWR?" H 4500 3650 50  0001 C CNN
+F 1 "GND" H 4505 3727 50  0000 C CNN
+F 2 "" H 4500 3900 50  0001 C CNN
+F 3 "" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+Text Label 3850 3900 2    50   ~ 0
+A-1
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5FADB175
+P 4000 4400
+F 0 "JP?" H 4000 4605 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4000 4514 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 4400 50  0001 C CNN
+F 3 "~" H 4000 4400 50  0001 C CNN
+F 4 "Bridge this when using 8-bit mode" H 4000 4400 50  0001 C CNN "Notes"
+	1    4000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4400 4500 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5FADC1B1
+P 4500 4400
+F 0 "#PWR?" H 4500 4150 50  0001 C CNN
+F 1 "GND" H 4505 4227 50  0000 C CNN
+F 2 "" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	1    0    0    -1  
+$EndComp
+Text Label 3850 4400 2    50   ~ 0
+ma-1
 $EndSCHEMATC
