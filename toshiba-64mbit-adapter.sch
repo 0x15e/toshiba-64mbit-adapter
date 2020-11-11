@@ -140,28 +140,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 2600 2900 2600
 $Comp
-L toshiba-64mbit-adapter-rescue:74HCT244-74xx U4
-U 1 1 5C861A2E
-P 8000 1950
-F 0 "U4" H 7750 2650 50  0000 C CNN
-F 1 "74HCT244" H 8250 2650 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8000 1950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 8000 1950 50  0001 C CNN
-	1    8000 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L toshiba-64mbit-adapter-rescue:74HCT244-74xx U5
-U 1 1 5C8634EA
-P 9700 1950
-F 0 "U5" H 9450 2650 50  0000 C CNN
-F 1 "74HCT244" H 9950 2650 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 9700 1950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 9700 1950 50  0001 C CNN
-	1    9700 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L toshiba-64mbit-adapter-rescue:74HCT244-74xx U7
 U 1 1 5C863DE8
 P 8000 4650
@@ -355,14 +333,14 @@ Text Label 2050 6150 0    50   ~ 0
 md8
 Text Label 2050 6250 0    50   ~ 0
 md0
-Text Label 2150 6350 0    50   ~ 0
+Text Label 2550 6350 0    50   ~ 0
 me
 Wire Wire Line
-	2050 6350 2150 6350
+	2050 6350 2550 6350
 Wire Wire Line
-	2150 6350 2150 6550
+	2550 6350 2550 6550
 Wire Wire Line
-	2150 6550 2050 6550
+	2550 6550 2050 6550
 Text Label 2050 6650 0    50   ~ 0
 ma0
 Text Label 1350 6650 2    50   ~ 0
@@ -719,17 +697,6 @@ F 3 "" H 6300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L toshiba-64mbit-adapter-rescue:74HCT244-74xx U3
-U 1 1 5C865388
-P 6300 1950
-F 0 "U3" H 6050 2650 50  0000 C CNN
-F 1 "74HCT244" H 6550 2650 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6300 1950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 6300 1950 50  0001 C CNN
-	1    6300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5F8F7548
 P 6300 3850
@@ -749,6 +716,39 @@ F 1 "+5V" H 8015 4023 50  0000 C CNN
 F 2 "" H 8000 3850 50  0001 C CNN
 F 3 "" H 8000 3850 50  0001 C CNN
 	1    8000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U5
+U 1 1 5C8634EA
+P 9700 1950
+F 0 "U5" H 9450 2650 50  0000 C CNN
+F 1 "74LVC244APW,118" H 10100 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 9700 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf" H 9700 1950 50  0001 C CNN
+	1    9700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U4
+U 1 1 5C861A2E
+P 8000 1950
+F 0 "U4" H 7750 2650 50  0000 C CNN
+F 1 "74LVC244APW,118" H 8400 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8000 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf" H 8000 1950 50  0001 C CNN
+	1    8000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L toshiba-64mbit-adapter-rescue:74HCT244-74xx U3
+U 1 1 5C865388
+P 6300 1950
+F 0 "U3" H 6050 2650 50  0000 C CNN
+F 1 "74LVC244APW,118" H 6700 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6300 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf" H 6300 1950 50  0001 C CNN
+	1    6300 1950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
