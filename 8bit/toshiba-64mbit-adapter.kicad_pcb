@@ -958,7 +958,7 @@
   )
 
   (gr_circle (center 124.4 76.6) (end 124.6 76.6) (layer F.SilkS) (width 0.12))
-  (gr_text "CC0 v1.0 2019" (at 113.3 87.05 270) (layer B.SilkS)
+  (gr_text "CC0 v1.1 2019" (at 113.3 87.05 270) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text github.com/tdaede/toshiba-64mbit-adapter (at 124.1 87.25 270) (layer B.SilkS) (tstamp 5C887000)
