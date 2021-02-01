@@ -85,7 +85,7 @@ A16
 Text Label 3600 2500 0    50   ~ 10
 A20
 Text Label 3600 2700 0    50   ~ 10
-D15
+A-1
 Text Label 3600 2900 0    50   ~ 10
 D14
 Text Label 3600 3100 0    50   ~ 10
@@ -302,7 +302,7 @@ ma16
 Text Label 1350 4350 2    50   ~ 0
 ma15
 Text Label 2050 4650 0    50   ~ 0
-md15
+ma-1
 Text Label 2050 4750 0    50   ~ 0
 md7
 Text Label 2050 4850 0    50   ~ 0
@@ -420,17 +420,6 @@ F 3 "" H 2450 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 4550 2450 4550
-$Comp
-L power:+3V3 #PWR0115
-U 1 1 5C8A68FE
-P 2450 4450
-F 0 "#PWR0115" H 2450 4300 50  0001 C CNN
-F 1 "+3V3" H 2465 4623 50  0000 C CNN
-F 2 "" H 2450 4450 50  0001 C CNN
-F 3 "" H 2450 4450 50  0001 C CNN
-	1    2450 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 4450 2450 4450
 $Comp
@@ -503,8 +492,6 @@ Text Label 6800 4650 0    50   ~ 0
 D1
 Text Label 6800 4550 0    50   ~ 0
 D9
-Text Label 6800 4450 0    50   ~ 0
-D15
 Text Label 6800 4350 0    50   ~ 0
 D7
 Text Label 6800 4250 0    50   ~ 0
@@ -541,8 +528,6 @@ Wire Wire Line
 	9200 2750 9200 2450
 Connection ~ 9700 2750
 Connection ~ 9200 2450
-Wire Wire Line
-	9050 2450 9200 2450
 Text Label 9200 1550 2    50   ~ 0
 E
 Text Label 10200 1550 0    50   ~ 0
@@ -581,8 +566,6 @@ Text Label 5800 4250 2    50   ~ 0
 md14
 Text Label 5800 4350 2    50   ~ 0
 md7
-Text Label 5800 4450 2    50   ~ 0
-md15
 Text Label 5800 4550 2    50   ~ 0
 md9
 Text Label 5800 4650 2    50   ~ 0
@@ -630,10 +613,6 @@ F 3 "" H 8000 1150 50  0001 C CNN
 	1    8000 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 1850 9050 1850
-Wire Wire Line
-	9050 1850 9050 2450
 $Comp
 L power:+3V3 #PWR0121
 U 1 1 5C91C6E7
@@ -751,4 +730,24 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf" H 6300
 	1    6300 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 4450 2450 4550
+Connection ~ 2450 4550
+Text Label 9200 1850 2    50   ~ 0
+A-1
+Text Label 10200 1850 0    50   ~ 0
+ma-1
+Wire Wire Line
+	5800 4450 5600 4450
+Wire Wire Line
+	5600 4450 5600 5450
+Wire Wire Line
+	5600 5450 6300 5450
+Connection ~ 6300 5450
+Wire Wire Line
+	6800 4450 6950 4450
+Wire Wire Line
+	6950 4450 6950 5450
+Wire Wire Line
+	6950 5450 6300 5450
 $EndSCHEMATC
